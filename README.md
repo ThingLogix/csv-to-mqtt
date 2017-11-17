@@ -1,5 +1,5 @@
 # ThingLogix
-### AWS Lambda function to convert an address to lat lon and vice-versa
+### AWS Lambda function to send each row of CSV data as MQTT messages
 
 ## Installation guide
 Clone this repository, then zip all of the contents. Upload the zip file to AWS Lambda as a Lambda function with runtime Python 3.6. The handler should be csv_to_mqtt.lambda_handler.
